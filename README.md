@@ -36,7 +36,6 @@ Como o **Arduino Nano** possui recursos limitados de memória e pinagem, utiliza
 Este código utiliza as bibliotecas `Keypad` para o teclado, `Adafruit_PCD8544` para o LCD e a lógica de memória para gravação de movimentos.
 
 ```cpp
-<code>
 #include <Keypad.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_PCD8544.h>
@@ -144,7 +143,6 @@ void executarSequencia() {
     motor1.run(RELEASE); motor2.run(RELEASE);
   }
 }
-</code>
 ```
 ### Dica Profissional:
 
