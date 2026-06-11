@@ -22,11 +22,17 @@ Como o **Arduino Nano** possui recursos limitados de memória e pinagem, utiliza
 ### 2. Mapeamento de Pinos (Pinout Sugerido)
 
 | Componente | Pinos Arduino Nano | Observação |
+
 | **L293D** | D11, D3, D5, D6 | Motores 1 e 2 (PWM) |
+
 | **Teclado (Linhas)** | D2, D4, D7, D8 | Entradas Digitais |
+
 | **Teclado (Colunas)** | D9, D10, A0 | Entradas Digitais |
+
 | **LCD Nokia 5110** | D13 (CLK), D11 (DIN), D12 (DC), A1 (CE), A2 (RST) | SPI Protocol |
+
 | **Ultrassom HC-SR04** | A3 (Trig), A4 (Echo) | Sensor de proximidade |
+
 | **ISD1820** | A5 | Pino de Play (Trigger) |
 
 ---
