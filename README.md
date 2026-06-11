@@ -146,8 +146,6 @@ void executarSequencia() {
 }
 </code>
 ```
----
-
 ### Dica Profissional:
 
 O **LCD Nokia 5110** opera em **3.3V**. Certifique-se de usar resistores de 10k em série ou um conversor de nível lógico entre os pinos do Nano (5V) e o LCD para não danificar o display. O módulo **ISD1820** pode ser alimentado diretamente pelos 5V do Arduino, mas o disparo pelo pino analógico (`A5`) como digital é seguro e eficiente.
