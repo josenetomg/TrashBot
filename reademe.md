@@ -1,4 +1,4 @@
-====== Trash Bot ======
+# Trash Bot 
 
 Este é um projeto de automação e robótica bastante completo, integrando interface de entrada (teclado), saída visual (LCD Nokia), detecção de presença (Ultrassom) e áudio (ISD1820).
 
